@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+
+
+
+/* Base styles for fixed image cards */
+.row .col-md-4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row .col-md-4 img {
+  max-width: 100%;
+  margin: 10px;
+  height: auto;
 }
+
+
+
+/* Adjust styles for screens with a max-width of 768px (e.g., tablets) */
+@media (max-width: 768px) {
+  .row .col-md-4 {
+    width: 50%; /* Two cards per row on smaller screens */
+    margin: 10px;
+  }
+ 
+}
+
+/* Adjust styles for screens with a max-width of 480px (e.g., smaller mobile devices) */
+@media (max-width: 480px) {
+  .row .col-md-4 {
+    width: 100%; /* One card per row on even smaller screens */
+    margin: 10px;
+  }
+  
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
