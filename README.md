@@ -1,5 +1,8 @@
 # Infinite Scroll Gallery in React
 
+![image](https://github.com/Divesh1207/Infinite-Gallery/assets/88198940/d589bc31-69b4-42b4-b20e-900fbe45ecd8)
+
+
 This is a React application that showcases an infinite scroll gallery of images fetched from the Unsplash API. Users can scroll through an ever-expanding collection of stunning images from Unsplash, providing a delightful visual experience.
 
 ## Features
